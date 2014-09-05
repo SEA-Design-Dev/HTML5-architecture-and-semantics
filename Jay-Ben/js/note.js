@@ -17,4 +17,5 @@ function startup () {
       self.setInterval (function () {savetext ()}, 1000); //call every second
       }
     }
+    startup();
 
