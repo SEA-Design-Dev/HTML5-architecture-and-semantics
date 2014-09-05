@@ -1,0 +1,67 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+  background-image: url('clipboard.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: red;
+  margin: 0 auto;
+  font-family: 'Special Elite', cursive;
+}
+
+p {
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: blue;
+  margin: 0 auto;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+ul {
+list-style-type: none;
+display: inline;
+text-align: center;
+}
+
+div {
+  width: 20%;
+  padding: 1em;
+}
+
+div img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+#matt {
+  margin-left: 25%;
+}
+
+#angela {
+  float: right;
+  margin-right: 25%;
+}
+

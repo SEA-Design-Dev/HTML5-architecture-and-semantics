@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Local Notes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <html manifest="index.appcache">
+        <link rel="stylesheet" type="text/css" href="style.css">
+  		<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch|Special+Elite' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+          <header role="banner">
+          <h1>Things.</h1>
+          <h2>Created by</h2> <h2 itemscope itemtype="http://data-vocabulary.org/Person"><span itemprop="Name">Matt</span><span itemprop="familyName">Wojo</span> and <span itemprop="Name">Angela</span><span itemprop="familyName">DiaFazio</span></h2>
+          </header>
+          <div itemprop="url" id="angela">
+          <img src="https://avatars2.githubusercontent.com/u/6698976?v=2&s=400">
+          </div>
+          <div itemprop="url" id="matt">
+          <img src="https://avatars2.githubusercontent.com/u/7566797?v=2&s=460">
+          </div>
+          <h2>Visit these resources to learn more about...</h2>
+		    <ul>
+		      <li><button>Local Storage</button></li>
+		      <li><button>Application Cache</button></li>
+		      <li><button>HTML5 Semantics</button></li>
+		      <li><button>Microdata</button></li>
+		      <li><button>ARIA</button></li>
+		      <li><button>BEM</button></li>
+		    </ul>
+    		<p> I will learn three things today.</p>
+		    <p>Thing #1</p>
+		    <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
+		     <p>Thing #2</p>
+		    <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
+		     <p>Thing #3</p>
+		    <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
+		    <p>We are students at Codefellows located on <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/PostalAddress">511 Boren Ave. Seattle Wa.</span> Although both new to web development and design we hope to build a strong base knowledge to kickstart our careers.</p>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+		<script type="text/javascript">
+		  var supported = 'This text will be saved locally, forever.',
+		    unsupported = 'Oh no! Your browser does not support localStorage.';
+		  if (window.localStorage) {
+		    var p = document.querySelector('#persisted-text');
+		  if (localStorage.text == null) {
+		    localStorage.text = p.value = supported;
+		  } else {
+		    p.value = localStorage.text;
+		  }
+		    p.addEventListener('keyup', function(){ localStorage.text = p.value; }, false);
+		  } else {
+		    document.getElementById('persisted-text').value = unsupported;
+		  }
+		</script>
+
+    </body>
+</html>
