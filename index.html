@@ -17,7 +17,7 @@
   		<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch|Special+Elite' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -27,33 +27,71 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-          <header role="banner">
-          <h1>Things.</h1>
-          <h2>Created by</h2> <h2 itemscope itemtype="http://data-vocabulary.org/Person"><span itemprop="Name">Matt</span><span itemprop="familyName">Wojo</span> and <span itemprop="Name">Angela</span><span itemprop="familyName">DiaFazio</span></h2>
-          </header>
-          <div itemprop="url" id="angela">
-          <img src="https://avatars2.githubusercontent.com/u/6698976?v=2&s=400">
-          </div>
-          <div itemprop="url" id="matt">
-          <img src="https://avatars2.githubusercontent.com/u/7566797?v=2&s=460">
-          </div>
-          <h2>Visit these resources to learn more about...</h2>
-		    <ul>
-		      <li><button>Local Storage</button></li>
-		      <li><button>Application Cache</button></li>
-		      <li><button>HTML5 Semantics</button></li>
-		      <li><button>Microdata</button></li>
-		      <li><button>ARIA</button></li>
-		      <li><button>BEM</button></li>
-		    </ul>
-    		<p> I will learn three things today.</p>
-		    <p>Thing #1</p>
-		    <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
-		     <p>Thing #2</p>
-		    <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
-		     <p>Thing #3</p>
-		    <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
-		    <p>We are students at Codefellows located on <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/PostalAddress">511 Boren Ave. Seattle Wa.</span> Although both new to web development and design we hope to build a strong base knowledge to kickstart our careers.</p>
+		    
+
+  <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Things.</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Local Storage</a></li>
+                        <li><a href="#">App Cache</a></li>
+                        <li><a href="#">HTML5 Semantics</a></li>
+                        <li><a href="#">Microdata</a></li>
+                        <li><a href="#">ARIA</a></li>
+                        <li><a href="#">BEM</a></li>
+                    </ul>
+                </nav>
+                <h3 class="title__sub">Created by</h3><h3 itemscope itemtype="http://data-vocabulary.org/Person"><span itemprop="Name">Matt</span><span itemprop="familyName">Wojo</span> and <span itemprop="Name">Angela</span><span itemprop="familyName">DiaFazio</span></h3>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <header>
+                        <h1>I will learn one thing today.</h1>
+                        <p>I am going to read about one of the topics in the top menu today and make notes about it below.</p>
+                        <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
+                    </header>
+                    <section>
+                        <h2>I will learn one thing this week.</h2>
+                        <p>I am going to read about all of the top menu item topics and summarize what I learned below.</p>
+                        <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
+                    </section>
+                    <section>
+                        <h2>I will learn one thing this month.</h2>
+                        <p>I am going to create a site implementing the things we learned about.</p>
+                        <p><textarea id="persisted__text" rows=5 cols=50></textarea><br/></p>
+                    </section>
+                    <footer>
+                        <h3>About Us</h3>
+                        <p>We are students at Codefellows located on <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/PostalAddress">511 Boren Ave. Seattle Wa.</span> Although both new to web development and design we hope to build a strong base knowledge to kickstart our careers.</p>
+                    </footer>
+                </article>
+
+                <aside>
+                    <h3>aside</h3>
+                    <p>Here's some stuff that makes sense for an aside about us or what we're learning or whatever.</p>
+                    <div itemprop="url" id="angela">
+                    <img src="https://avatars2.githubusercontent.com/u/6698976?v=2&s=400">
+                    </div>
+                    <div itemprop="url" id="matt">
+                    <img src="https://avatars2.githubusercontent.com/u/7566797?v=2&s=460">
+                    </div>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>BIOS</h3>
+                <p>We are students at Codefellows located on <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/PostalAddress">511 Boren Ave. Seattle Wa.</span> Although both new to web development and design we hope to build a strong base knowledge to kickstart our careers.</p>
+
+            </footer>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>

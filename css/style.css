@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-image: url('clipboard.jpg');
+  background-image: url('../images/clipboard.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
