@@ -1,14 +1,21 @@
 .background-style {
-  background: url(/images/triangles-blue.jpg)  no-repeat center center fixed;
+  background: url(/images/triangles-blue.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
+  max-width: 480px;
 }
 .headline {
   text-align: center;
 }
+.logo {
+  /*background: url(/images/asterick.png);*/
+  height: 25%;
+  width: 25%;
+}
 .headline-font__title {
   font-family: 'Oleo Script', cursive;
+  font-weight: lighter;
   font-size: 4rem;
   color: white;
   margin-bottom: -2.5rem;
@@ -18,7 +25,7 @@
   font-weight: bolder;
   color: white;
   margin-bottom: 3rem;
-  padding-left: 45%; /* sizing for 480 width screen*/
+  padding-left: 70%;  /*sizing for 480 width screen*/
 }
 .main-body {
   margin: 1em;
@@ -30,29 +37,17 @@
   margin: 0 auto;
 }
 .text-box__area {
-  width: 70%;
+  width: 80%;
   height: 25rem;
   background-color: rgba(1,1,1,0.3);
   border-radius: 4px;
   border: solid 1px white;
-  padding: 15%;
+  padding: 10%;
 }
 .footer-style {
   margin: 1em;
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  color: white;
 }
 
-
-
-
-/*textarea {
- background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
- width: 600px;
- height: 300px;
- font: normal 14px verdana;
- line-height: 25px;
- padding: 2px 10px;
- border: solid 1px #ddd;
-}
-*/
