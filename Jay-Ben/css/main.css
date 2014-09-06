@@ -1,4 +1,52 @@
-textarea {
+.background-style {
+  background: url(/images/triangles-blue.jpg)  no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.headline {
+  text-align: center;
+}
+.headline-font__title {
+  font-family: 'Oleo Script', cursive;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: -2.5rem;
+}
+.headline-font__title__tagline {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 3rem;
+  padding-left: 45%; /* sizing for 480 width screen*/
+}
+.main-body {
+  margin: 1em;
+}
+.text-box {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 auto;
+}
+.text-box__area {
+  width: 70%;
+  height: 25rem;
+  background-color: rgba(1,1,1,0.3);
+  border-radius: 4px;
+  border: solid 1px white;
+  padding: 15%;
+}
+.footer-style {
+  margin: 1em;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+
+
+
+/*textarea {
  background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
  width: 600px;
  height: 300px;
@@ -7,3 +55,4 @@ textarea {
  padding: 2px 10px;
  border: solid 1px #ddd;
 }
+*/

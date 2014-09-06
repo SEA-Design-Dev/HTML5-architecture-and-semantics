@@ -1,4 +1,7 @@
 CACHE MANIFEST
+
+#version 1.0
+
 index.html
 css/main.css
-js/note.js
+js/main.js
