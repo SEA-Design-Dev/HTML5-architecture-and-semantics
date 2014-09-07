@@ -12,12 +12,22 @@ html {
 .headline {
   text-align: center;
 }
+.headline__tagline {
+  font-size: .3rem;
+  color: transparent;
+  margin-top: -.7rem;
+}
 .logo {
   height: 90%;
   width: 90%;
 }
 .main-body {
   margin: 1em;
+}
+.main-body__tagline {
+  font-size: .3rem;
+  color: transparent;
+  margin-top: -1rem;
 }
 .text-box {
   margin: 0 auto;
