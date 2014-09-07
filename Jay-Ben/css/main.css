@@ -3,10 +3,6 @@ html {
   font-weight: lighter;
 }
 
-body {
-  position: center;
-}
-
 .background-style {
   background: url(/images/triangles-blue.jpg) no-repeat center center fixed;
   background-size: cover;
