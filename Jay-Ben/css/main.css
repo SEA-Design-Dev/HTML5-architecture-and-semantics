@@ -2,6 +2,11 @@ html {
   font-family: 'Arial Narrow', Arial, sans-serif;
   font-weight: lighter;
 }
+
+body {
+  position: center;
+}
+
 .background-style {
   background: url(/images/triangles-blue.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -25,8 +30,9 @@ html {
   margin: 1em;
 }
 .main-body__tagline {
-  font-size: .3rem;
-  color: transparent;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
   margin-top: -1rem;
 }
 .text-box {
@@ -47,5 +53,6 @@ html {
   text-align: center;
   color: white;
   font-style: italic;
+  font-size: .5rem;
 }
 
