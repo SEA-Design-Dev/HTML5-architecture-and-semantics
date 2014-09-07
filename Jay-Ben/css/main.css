@@ -1,3 +1,8 @@
+
+html {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+}
 .background-style {
   background: url(/images/triangles-blue.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -9,34 +14,18 @@
   text-align: center;
 }
 .logo {
-  /*background: url(/images/asterick.png);*/
-  height: 25%;
-  width: 25%;
-}
-.headline-font__title {
-  font-family: 'Oleo Script', cursive;
-  font-weight: lighter;
-  font-size: 4rem;
-  color: white;
-  margin-bottom: -2.5rem;
-}
-.headline-font__title__tagline {
-  font-family: 'Oswald', sans-serif;
-  font-weight: bolder;
-  color: white;
-  margin-bottom: 3rem;
-  padding-left: 70%;  /*sizing for 480 width screen*/
+  height: 90%;
+  width: 90%;
 }
 .main-body {
   margin: 1em;
 }
 .text-box {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
-  color: white;
   margin: 0 auto;
 }
 .text-box__area {
+  font-size: 1.2rem;
+  color: white;
   width: 80%;
   height: 25rem;
   background-color: rgba(1,1,1,0.3);
@@ -46,7 +35,6 @@
 }
 .footer-style {
   margin: 1em;
-  font-family: 'Oswald', sans-serif;
   text-align: center;
   color: white;
 }

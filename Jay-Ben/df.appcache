@@ -1,8 +1,12 @@
 CACHE MANIFEST
-
-#version 1.1
+# 2014-09-6:v9
 
 index.html
+css/normalize.css
 css/main.css
 js/main.js
-normalize.css
+images/title-logo.png
+images/asterick-iocon.icns
+images/asterick-iocon.ico
+images/triangles-blue.jpg
+
