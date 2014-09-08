@@ -1,0 +1,465 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #DCDCDE;
+
+}
+
+
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #DCDCDE;
+    margin: 80px 0 0 -10px;
+    font-size: 90px;
+    font-family: 'Roboto', serif;
+
+}
+
+
+p {
+  text-align: center;
+      font-family: 'Rozha One', serif;
+
+}
+
+h2, h3, h4 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #DCDCDE;
+  margin: 0 auto;
+  font-family: "Roboto", serif;
+
+}
+
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 0px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font: 16px/26px "Rozha One", Helvetica, Helvetica Neue, Arial;
+    background-color: #272b30;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+   border-bottom: 20px solid #black;
+
+}
+
+.footer-container,
+
+.main aside {
+    border-top: 20px solid #;
+    margin-top: 20px;
+    padding: 100px 100px 100px 100px;
+    background: #3a3f44;
+
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #3a3f44;
+
+}
+
+.title {
+    font-weight: 1000;
+    color: #ff7a85;
+
+}
+
+.main aside {
+
+ background-color: #1A6680;
+}
+
+#low {
+    background-color: #1A6680   ;
+}
+
+#dow {
+    background-color: #31758D;
+
+}
+
+#tow {
+    background-color: #488599;
+}
+span {
+    color:#ee5f5b;
+    margin-top: 900px;
+}
+
+.today {
+    color: #ee5f5b;
+        margin-top: 10px;
+}
+
+.thisweek {
+    color:#ee5f5b;
+        margin-top: 10px;
+
+}
+
+.thismonth {
+    color:#ee5f5b;
+        margin-top: 10px;
+
+}
+
+
+/* ==============
+    Navigation
+   ============== */
+
+nav ul {
+
+    padding: 0;
+    list-style: none; overflow: hidden; position: relative;
+    text-align: center;
+}
+    nav ul li {
+        float: right; margin: 0 10px 0 0;
+    }
+
+nav a:hover,
+nav a:visited {
+    color: #DCDCDE;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a {
+    display: block; width: 100px; height: 90px;
+    background-image: url(../images/icons.png); background-repeat: no-repeat;
+}
+    nav ul li:nth-child(1) a {
+        background-color: #62c462;
+        background-position: -620px 10px;
+
+    }
+    nav ul li:nth-child(2) a {
+        background-color: #5bc0de;
+        background-position: -420px 10px;
+    }
+    nav ul li:nth-child(3) a {
+        background-color: #f89406;
+        background-position: -230px 10px;
+    }
+    nav ul li:nth-child(4) a {
+        background-color: #ee5f5b;
+        background-position: -50px 10px;
+    }
+
+    nav ul li a span {
+    font: 50px "Roboto", serif; text-transform: uppercase;
+    position: absolute; left: 580px; top: 29px;
+    display: none;
+}
+
+/* ==============
+    Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: #DCDCDE;
+    padding: 20px 0;
+}
+
+/* ===============
+    IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0%;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 25px #000000;
+           -moz-box-shadow: 0 5px 25px #000000;
+                box-shadow: 0 5px 25px #000000;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+
+    }
+
+    nav {
+        float: right;
+
+
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 0px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
