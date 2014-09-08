@@ -16,7 +16,6 @@ body{
   box-shadow: 0 0 3px #999;
 }
 
-
 .hdr-one{
   padding:0;
   margin:0;
@@ -29,6 +28,10 @@ body{
   text-align: center;
   color:#1D7CF2;
   padding:0;
+}
+
+.hdr-two-hidden{
+  display: none;
 }
 
 /***Navigation***/
@@ -56,7 +59,7 @@ body{
 
 /***Tsum List***/
 
-.tsums{
+.tsums-section{
   width: 80%;
   padding: 0 0 0 12%;
 }
@@ -109,7 +112,7 @@ body{
   padding: 0 15px 10px 15px;
 }
 
-/***Comments Section***/
+/***Comment Write Section***/
 
 .comment-form{
   max-width: 60%;
@@ -128,14 +131,28 @@ body{
 
 .submit-button{
   width:15%;
-  margin: 0 42% 0 42%;
+  margin: 0 42% 45px 42%;
 }
 
+/***Comment Read Section***/
+
 .comment-posts{
-  text-align: center;
-  margin: 15px 0 15px 0;
+  text-align: left;
+  width: 70%;
+  margin: 0 14% 0 14%;
+  padding: 0;
   color:#1D7CF2;
   font-family: Lato, sans-serif;
+}
+
+.comment-line{
+  padding:0;
+  width: 100%;
+}
+
+.comment-posted{
+  margin:0;
+  padding:0;
 }
 
 

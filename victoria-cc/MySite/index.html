@@ -11,9 +11,8 @@
 
     <link rel="stylesheet" href="css/base.css" type="text/css"></link>
     <link rel="stylesheet" href="css/layout.css" type="text/css"></link>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
-    <!--<script type="text/javascript" src="js/vendor/modernizr-2.8.3.min.js"></script>-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900|Paytone+One' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/modernizr.custom.71179.js"></script>
     <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     <script type="text/javascript" src="/js/comments-section.js"></script>
@@ -23,6 +22,7 @@
     <header class="main-header" role="banner">
       <h1 class="hdr-one">Welcome to Tsum Tsum World!</h1>
       <nav role="navigation" class="nav">
+        <h2 class="hdr-two-hidden">Navigation</h2>
         <ul class="nav-list">
           <li class="selected">Home</li>
           <li>Friends</li>
@@ -38,7 +38,7 @@
 
       <!-- Add your site or application content here -->
 
-     <section class="tsums">
+     <section class="tsums-section">
       <h2 class="hdr-two">Products</h2>
         <ul class="tsum-list">
           <li itemscope itemtype="http://schema.org/Product"><a itemprop="url" href="http://www.disneystore.com/mickey-mouse-tsum-tsum-plush-mini-3-1/2/mp/1355240/1000267/"><img itemprop="image" src="img/mickey.jpg" alt="Mickey"></a></li>
@@ -52,6 +52,7 @@
       </section>
 
       <section class="welcome-section">
+        <h2 class="hdr-two-hidden">My Collection</h2>
         <article class="welcome-msg">
           <h3 class="welcome-hdr">About My Collection</h2>
           <p>Hi. I’m Alex and it’s been 45 minutes since my last Tsum Tsum (applause from the group). My index finger is starting to get twitchy and I find myself searching the internet for plush Tsum Tsum’s to get my fix in-between games.  But nothing really helps (starts to break down in tears)… I NEED MORE TSUM TSUMS!!!…
@@ -69,13 +70,13 @@
           <input type="submit" value="Submit" class="submit-button"/>
 
           <section class="comment-posts">
-            <label id="post-one" class="posted"></label>
-            <br/><br/>
-
-            <label id="post-two" class="posted"></label>
-            <br/><br/>
-
-            <label id="post-three" class="posted"></label>
+            <h3 class="hdr-two-hidden">Posted Comments</h3>
+            <label id="post-one" class="comment-posted"></label>
+              <hr class="comment-line"><br/><br/>
+            <label id="post-two" class="comment-posted"></label>
+             <hr class="comment-line"><br/><br/>
+            <label id="post-three" class="comment-posted"></label>
+              <hr class="comment-line">
           </section>
         </form>
       </section>

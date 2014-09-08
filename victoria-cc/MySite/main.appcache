@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#version 6.1
+#version 6.2
 
 index.html
 css/base.css
@@ -11,5 +11,7 @@ img/donald.jpg
 img/daisy.jpg
 img/banner.png
 js/jquery-1.11.1.min.js
+js/modernizr.custom.71179.js
 js/comments-section.js
+
 
