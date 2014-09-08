@@ -55,22 +55,33 @@ form input{
   background-color: rgba(255,255,255,0.3);
 }
 
-.alert #hidden{
+#alertBox_inactive{
   display:none;
   position:fixed;
   background-color:#FFF;
+  border:1px solid black;
   border-radius:15px;
   top:50%;
   left:50%;
   width:450px;
-  height:200px;
+  height:100px;
   margin-top:-110px;
   margin-left:-255px;
   padding:20px 30px;
 }
-.alert #shown{
+#alertBox_active{
   display:block;
-
+  position:fixed;
+  background-color:#FFF;
+  border:1px solid black;
+  border-radius:15px;
+  top:50%;
+  left:50%;
+  width:450px;
+  height:100px;
+  margin-top:-110px;
+  margin-left:-255px;
+  padding:20px 30px;
 }
 
 

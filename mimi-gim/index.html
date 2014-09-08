@@ -37,7 +37,7 @@
         <p>This webpage was created by <span itemprop="name">Mimi</span> and <span itemprop="name">Maggie</span> on <time datetime="2014-09-08">September 8, 2014.</time></p>
       </footer>
 
-      <div class="alert" id="hidden">testing</div>
+      <div id="alertBox_inactive">testing</div>
 
     </main>
 
@@ -58,10 +58,18 @@
       sessionStorage[$(this).attr('name')] = $(this).val();
       });
       $('#testForm').submit(function() {
-      /*alert("Your name is " + sessionStorage["yourname"] + ". Your hometown is " + sessionStorage["hometown"] + ". Thanks for playing!"); ---- This was the previous alert*/
-      var alert-string = "Your name is " + sessionStorage["yourname"] + ". Your hometown is " + sessionStorage["hometown"] + ". Thanks for playing!";
+      var alertString = "Your name is " + sessionStorage["yourname"] + ". Your hometown is " + sessionStorage["hometown"] + ". Thanks for playing!";
+      /*alert(alertString);*/
+      document.getElementById("alertBox_inactive").setAttribute("id","alertBox_active");
+      document.getElementById("alertBox_active").innerHTML = alertString;
+      return false;
+      /*
+
       $('.alert').toggleClass('#shown');
-      $('.alert').innerHTML(alert-string);
+      $('.alert').innerHTML(alertString);
+
+      */
+
 
 
       });
