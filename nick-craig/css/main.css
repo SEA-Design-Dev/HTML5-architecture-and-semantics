@@ -121,6 +121,10 @@ input {
   border-radius: 3px;
 }
 
+footer {
+  text-align: center;
+}
+
 #secretMessage {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

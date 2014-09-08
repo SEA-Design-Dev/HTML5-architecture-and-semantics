@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" manifest=""> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <script src="js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -30,21 +30,17 @@
     <!-- Initially hidden paragraph. Revealed when user uploads a photo. -->
     <p id="secretMessage" aria-hidden="true">F*CK A<br>BOOTSTRAP</p>
   </main>
-  <footer class="hidden" aria-hidden="true">
-    <p>testing</p>
+  <footer aria-hidden="true">
     <div itemscope itemtype="http://schema.org/Person">
-      <div itemprop="name"><strong>Jay Sweet &amp; Nicholas Klunder</strong></div>
+      <div itemprop="name"><strong>Craig Grant &amp; Nicholas Klunder</strong></div>
       <div itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Code Fellows - UX Front-End Dev Accelerator </span></div>
       <div itemprop="jobtitle">Students</div>
-      <div itemprop="description">File API Assignment</div>
+      <div itemprop="description">HTML5 Structure &amp; Semantics Assignment</div>
       <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <div itemprop="streetAddress">Seattle</div>
-        <div><span itemprop="addressRegion">Washington</span></div><div itemprop="addressCountry">United States</div>
+        <span itemprop="streetAddress">Seattle, </span>
+        <span itemprop="addressRegion">Washington </span><span itemprop="addressCountry">United States</span></div>
       </div>
-    </div>
-  </footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-  <script src="js/main.js"></script>
-</body>
-</html>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
