@@ -1,21 +1,26 @@
 <!doctype html>
-<html manifest="example.appcache" lang="en">
+<html manifest="example.appcache" lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Form | Code Fellows</title>
     <meta name="description" content="Demo for HTML5 architecture and semantics.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!--<script src="js/vendor/modernizr-2.8.3.min.js"></script>-->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
   <body>
+
+    <h1>Code Fellows HTML5 (and Other Awesome Stuff) Assignment</h1>
     <main role="main">
+
       <header id="image">
           <img src="img/CodeFellowsLogo.jpeg" alt="Code Fellows Logo">
       </header>
+
       <article>
-        <h1>Information:</h1>
+        <h2>Form:</h2>
         <form id="testForm"  action="URL" role="form">
           <label>Enter Your Name</label>
           <input type="text" name="yourname" id="yourname" class="stored" value="" aria-required="true"/><br>
@@ -25,9 +30,12 @@
         </form>
       </article>
       <footer role="contentinfo" itemscope>
+        <h3>About the Authors</h3>
         <p>This webpage was created by <span itemprop="name">Sean</span> and <span itemprop="name">Maggie</span> on <time datetime="2014-09-04">September 4, 2014.</time></p>
       </footer>
     </main>
+
+
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>

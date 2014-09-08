@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
       $(document).ready(function () {
         function onpageload() { //This function checks to see if there are valuses stored in sessionStorage
           if (sessionStorage["yourname"]) {
@@ -19,4 +19,4 @@
       $('#testForm').submit(function() {
       alert("Your name is " + sessionStorage["yourname"] + ". Your hometown is " + sessionStorage["hometown"] + ". Thanks for playing!");
       });
-    </script>
+
