@@ -5,8 +5,11 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #DCDCDE;
+
 }
+
+
 
 html {
     font-size: 1em;
@@ -16,24 +19,30 @@ html {
 h1 {
     text-align: center;
     font-size: 3em;
-    color: red;
-    margin: 0 auto;
-    font-family: 'Special Elite', cursive;
+    color: #DCDCDE;
+    margin: 30 auto;
+    font-family: 'Roboto', serif;
+
+
 }
 
 
 p {
   text-align: center;
-  font-family: 'Cabin Sketch', cursive;
+      font-family: 'Rozha One', serif;
+
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   font-size: 1.5em;
-  color: blue;
+  color: #DCDCDE;
   margin: 0 auto;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: "Roboto", serif;
+
 }
+
+
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -49,7 +58,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 0px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -84,7 +93,8 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px "Rozha One", Helvetica, Helvetica Neue, Arial;
+    background-color: #272b30;
 }
 
 .wrapper {
@@ -97,27 +107,72 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+   border-bottom: 20px solid #black;
+
 }
 
 .footer-container,
+
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #;
+    margin-top: 20px;
+    padding: 100px 100px 100px 100px;
+
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #3a3f44;
+
 }
 
 .title {
-    color: white;
+    color: #c8c8c8;
+
 }
+
+.main aside {
+
+ background-color: #1A6680;
+}
+
+#low {
+    background-color: #1A6680   ;
+}
+
+#dow {
+    background-color: #31758D;
+
+}
+
+#tow {
+    background-color: #488599;
+}
+span {
+    color:#ee5f5b;
+
+
+}
+.thisweek {
+    color:#ee5f5b;
+        margin-top: 10px;
+
+}
+
+.thismonth {
+    color:#ee5f5b;
+        margin-top: 10px;
+
+}
+
 
 /* ==============
     MOBILE: Menu
    ============== */
+
+
+
 
 nav ul {
     margin: 0;
@@ -133,13 +188,13 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: white;
-    background: #e44d26;
+    color: #DCDCDE;
+    background: #272b30;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: #DCDCDE;
 }
 
 nav a:hover {
@@ -164,7 +219,7 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: white;
+    color: #DCDCDE;
     padding: 20px 0;
 }
 
@@ -213,7 +268,7 @@ nav a:hover {
     }
 
     nav li:first-child a {
-        margin-left: 0;
+        margin-left: 0%;
     }
 
     nav li:last-child a {
@@ -229,7 +284,7 @@ nav a:hover {
     }
 
     .oldie nav a {
-        margin: 0 0.7%;
+        margin: 0 0.%;
     }
 }
 
@@ -241,9 +296,9 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+        -webkit-box-shadow: 0 5px 25px #000000;
+           -moz-box-shadow: 0 5px 25px #000000;
+                box-shadow: 0 5px 25px #000000;
     }
 
 /* ============
@@ -252,11 +307,13 @@ nav a:hover {
 
     .title {
         float: left;
+
     }
 
     nav {
         float: right;
         width: 38%;
+
     }
 
 /* ============
@@ -381,7 +438,7 @@ nav a:hover {
 
     pre,
     blockquote {
-        border: 1px solid #999;
+        border: 0px solid #999;
         page-break-inside: avoid;
     }
 
