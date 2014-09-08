@@ -13,10 +13,13 @@ html {
 .headline {
   text-align: center;
 }
-.headline__tagline {
+.hidden {
+   color: transparent;
+}
+.headline__tagline__hidden {
   font-size: .3rem;
-  color: transparent;
   margin-top: -.7rem;
+  color: transparent;
 }
 .logo {
   height: 90%;
@@ -25,11 +28,11 @@ html {
 .main-body {
   margin: 1em;
 }
-.main-body__tagline {
+.main-body__tagline__hidden {
   font-size: 1rem;
   text-align: center;
-  color: white;
-  margin-top: -1rem;
+  color: transparent;
+  margin-top: -3rem;
 }
 .text-box {
   margin: 0 auto;
