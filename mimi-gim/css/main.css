@@ -1,29 +1,78 @@
-body {
-  background-color:grey;
+*{
+  font-family:'Roboto', sans-serif; /* Weights available are Thin-100, Normal-400, Heavy-700*/
 
+}
+
+body {
+  background: -webkit-linear-gradient(#afc4c6, #66999e); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#afc4c6, #66999e); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#afc4c6, #66999e); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#afc4c6, #66999e); /* Standard syntax */
+  margin:0px auto;
+  padding:0px 0px;
+
+}
+h1 {
+  text-align:center;
+  font-weight:700;
+  width:100%;
+  color:#FFF;
+}
+h2{
+  color:#66999e;
+  font-weight:100;
+  font-size:16px;
+}
+h3{
+  color:#66999e;
+  font-weight:400;
+  font-size:12px;
+}
+p {
+  font-size:10px;
+  font-weight:400;
+  color:#FFF;
 }
 
 main {
-margin: 100px auto;
-padding:20px 30px;
-width: 400px;
-font-family:sans-serif;
-border:1px solid #404040;
-background-color:#FFF;
-border-radius:15px;
-box-shadow: 5px 5px 5px #404040;
+  margin:100px auto 400px auto;
+  padding:20px 30px;
+  width: 500px;
+  border:1px solid #404040;
+  background-color: rgba(255,255,255,0.3);
+  border-radius:15px;
+  box-shadow: 5px 5px 5px #404040;
 }
 
-header img {
-margin:0 auto;
-width:100px;
-}
+
 
 header {
-margin: 0 auto 50px auto;
-width:100px;
+  margin: 0 auto 20px auto;
 }
 
-p {
-  font-size:70%;
+
+form input{
+  background-color: rgba(255,255,255,0.3);
 }
+
+.alert #hidden{
+  display:none;
+  position:fixed;
+  background-color:#FFF;
+  border-radius:15px;
+  top:50%;
+  left:50%;
+  width:450px;
+  height:200px;
+  margin-top:-110px;
+  margin-left:-255px;
+  padding:20px 30px;
+}
+.alert #shown{
+  display:block;
+
+}
+
+
+
+

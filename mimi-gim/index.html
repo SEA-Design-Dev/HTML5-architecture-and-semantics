@@ -1,45 +1,73 @@
 <!doctype html>
-<html manifest="example.appcache" lang="en" class="no-js">
+<html manifest="example.appcache" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Form | Code Fellows</title>
+
+   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'> <!--Link to Google Fonts-->
+
     <meta name="description" content="Demo for HTML5 architecture and semantics.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/modernizr.custom.92808.js"></script>
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
   </head>
   <body>
 
-    <h1>Code Fellows HTML5 (and Other Awesome Stuff) Assignment</h1>
+
     <main role="main">
 
       <header id="image">
-          <img src="img/CodeFellowsLogo.jpeg" alt="Code Fellows Logo">
+          <h1>Code Fellows HTML5 (and Other Awesome Stuff) Assignment</h1>
+          <hr>
       </header>
 
       <article>
-        <h2>Form:</h2>
-        <form id="testForm"  action="URL" role="form">
-          <label>Enter Your Name</label>
-          <input type="text" name="yourname" id="yourname" class="stored" value="" aria-required="true"/><br>
-          <label>Enter Your Hometown</label>
-          <input type="text" name="hometown" id="hometown" class="stored" aria-required="true"/><br>
+        <h2>Form</h2>
+        <form id="testForm"  action="" role="form">
+          <input type="text" name="yourname" id="yourname" class="stored" value="" aria-required="true" placeholder="Enter Your Name"/><br>
+          <input type="text" name="hometown" id="hometown" class="stored" aria-required="true" placeholder="Enter Your Hometown"/><br>
           <input type="submit" class="demo-button" value="Submit"/>
         </form>
       </article>
       <footer role="contentinfo" itemscope>
         <h3>About the Authors</h3>
-        <p>This webpage was created by <span itemprop="name">Sean</span> and <span itemprop="name">Maggie</span> on <time datetime="2014-09-04">September 4, 2014.</time></p>
+        <p>This webpage was created by <span itemprop="name">Mimi</span> and <span itemprop="name">Maggie</span> on <time datetime="2014-09-08">September 8, 2014.</time></p>
       </footer>
+
+      <div class="alert" id="hidden">testing</div>
+
     </main>
 
 
+    <script type="text/javascript">
+      $(document).ready(function () {
+        function onpageload() { //This function checks to see if there are valuses stored in sessionStorage
+          if (sessionStorage["yourname"]) {
+             $('#yourname').val(sessionStorage["yourname"]);
+          };
+          if (sessionStorage["hometown"]) {
+             $('#hometown').val(sessionStorage["hometown"]);
+          };
+        };
+        onpageload();
+        });
+      $('.stored').keyup(function () {
+      sessionStorage[$(this).attr('name')] = $(this).val();
+      });
+      $('#testForm').submit(function() {
+      /*alert("Your name is " + sessionStorage["yourname"] + ". Your hometown is " + sessionStorage["hometown"] + ". Thanks for playing!"); ---- This was the previous alert*/
+      var alert-string = "Your name is " + sessionStorage["yourname"] + ". Your hometown is " + sessionStorage["hometown"] + ". Thanks for playing!";
+      $('.alert').toggleClass('#shown');
+      $('.alert').innerHTML(alert-string);
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+
+      });
+
+
+    </script>
     <!--<script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
