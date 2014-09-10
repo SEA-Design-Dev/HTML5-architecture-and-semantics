@@ -16,13 +16,12 @@ html {
 }
 
 .hidden {
-   color: transparent;
+   display: none;
 }
 
 .headline__tagline__hidden {
   font-size: .3rem;
-  margin-top: -.7rem;
-  color: transparent;
+  display: none;
 }
 
 .logo {
@@ -64,3 +63,6 @@ html {
   font-size: .5rem;
 }
 
+img {
+  margin: 20px 0;
+}
