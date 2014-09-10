@@ -10,33 +10,40 @@ html {
   width: 100%;
   max-width: 480px;
 }
+
 .headline {
   text-align: center;
 }
+
 .hidden {
-   color: transparent;
+   display: none;
 }
+
 .headline__tagline__hidden {
   font-size: .3rem;
-  margin-top: -.7rem;
-  color: transparent;
+  display: none;
 }
+
 .logo {
   height: 90%;
   width: 90%;
 }
+
 .main-body {
   margin: 1em;
 }
+
 .main-body__tagline__hidden {
   font-size: 1rem;
   text-align: center;
   color: transparent;
   margin-top: -3rem;
 }
+
 .text-box {
   margin: 0 auto;
 }
+
 .text-box__area {
   font-size: 1.2rem;
   color: white;
@@ -47,6 +54,7 @@ html {
   border: solid 1px white;
   padding: 10%;
 }
+
 .footer-style {
   margin: 1em;
   text-align: center;
@@ -55,3 +63,6 @@ html {
   font-size: .5rem;
 }
 
+img {
+  margin: 20px 0;
+}
