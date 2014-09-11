@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*****HEADERS*****/
+
+.hdr-main {
+  background-color: #1D7CF2;
+  padding: 40px 0 20px 0;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  box-shadow: 0 0 3px #999;
+}
+
+.hdr-h1 {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: Paytone One, serif;
+  font-size: 2.75em;
+}
+
+.tsum-hdr, .comment-hdr {
+  text-align: center;
+  color: #1D7CF2;
+  padding: 0;
+}
+
+.is-hidden {
+  display: none;
+}
+
+/***Navigation***/
+
+.hdr-nav {
+  color: white;
+  font-size: 1.25em;
+}
+
+.nav-list {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-list li {
+  float: left;
+  margin-right: 60px;
+}
+
+.nav-list li.selected, .nav-list li:hover {
+  border-bottom: solid 1px #fff;
+}
+
+/*****BODY*****/
+
+/***Tsum List***/
+
+.tsum-section {
+  margin: 0 auto;
+}
+
+.tsum-list {
+  list-style: none;
+  display: inline-block;
+  width: 70%;
+  margin: 0 15%;
+}
+
+.tsum-list li {
+  float: left;
+}
+
+.tsum-list li img {
+  max-width: 200px;
+}
+
+.tsum-list li:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+/***Welcome Section***/
+
+.welcome-section {
+  max-width: 100%;
+}
+
+.welcome-msg {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+  box-shadow: 0 0 3px #999;
+}
+
+.welcome-hdr {
+  font-size: 1.5em;
+  text-align: center;
+  color: #1D7CF2;
+  padding: 10px 0 0 0;
+}
+
+.welcome-p {
+  text-align: left;
+  font-family: Lato, sans-serif;
+  font-size: 1em;
+  color: #000;
+  padding: 0 15px 0 15px;
+}
+
+/***Comment Write Section***/
+
+.comment-form {
+  max-width: 60%;
+  text-align: center;
+  margin: 0 20%;
+}
+
+.comment-hdr {
+  font-family: Lato, sans-serif;
+}
+
+.comment-entry {
+  width: 70%;
+  margin: 20px 15%;
+}
+
+.submit-button {
+  width: 15%;
+  margin: 0 42.5% 45px 42.5%;
+}
+
+/***Comment Read Section***/
+
+.comment-posts {
+  text-align: left;
+  width: 70%;
+  margin: 0 15%;
+  padding: 0;
+  color: #1D7CF2;
+  font-family: Lato, sans-serif;
+}
+
+.comment-posted {
+  display: block;
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: solid 1px #999;
+}
+
+
+/***Footer***/
+
+.footer {
+  width: 100%;
+  padding: 0 0 25px 0;
+}
+
+.footer-txt {
+    display: block;
+    margin: 200px 0 0 0;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color: #1D7CF2;
+}
+
+.footer-banner {
+  background: #000 url(img/banner.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 0 150px 0;
+  margin: 0;
+}
