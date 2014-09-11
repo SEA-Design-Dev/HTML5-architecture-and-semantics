@@ -1,44 +1,43 @@
 body{
-  margin:0;
-  padding:0;
-
+  margin: 0;
+  padding: 0;
 }
 
 /*****HEADERS*****/
 
-.main-header{
+.hdr-main{
   background-color: #1D7CF2;
-  padding:40px 0 20px 0;
-  margin:0;
+  padding: 40px 0 20px 0;
+  margin: 0;
   font-family: Lato, sans-serif;
   font-weight: 400;
   text-align: center;
   box-shadow: 0 0 3px #999;
 }
 
-.hdr-one{
-  padding:0;
-  margin:0;
+.hdr-h1{
+  padding: 0;
+  margin: 0;
   color: #fff;
   font-family: Paytone One, serif;
   font-size: 2.75em;
 }
 
-.hdr-two{
+.tsum-hdr, .comment-hdr{
   text-align: center;
-  color:#1D7CF2;
-  padding:0;
+  color: #1D7CF2;
+  padding: 0;
 }
 
-.hdr-two-hidden{
+.is-hidden{
   display: none;
 }
 
 /***Navigation***/
 
-.nav{
-  color:white;
-  font-size:1.25em;
+.hdr-nav{
+  color: white;
+  font-size: 1.25em;
 }
 
 .nav-list{
@@ -59,14 +58,15 @@ body{
 
 /***Tsum List***/
 
-.tsums-section{
-  width: 80%;
-  padding: 0 0 0 12%;
+.tsum-section{
+  margin: 0 auto;
 }
 
 .tsum-list{
   list-style: none;
   display: inline-block;
+  width: 70%;
+  margin: 0 15%;
 }
 
 .tsum-list li{
@@ -75,41 +75,39 @@ body{
 
 .tsum-list li img{
   max-width: 200px;
-
 }
 
 .tsum-list li:hover{
-  opacity:0.4;
-  filter:alpha(opacity=40);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
 }
 
 /***Welcome Section***/
 
 .welcome-section{
-  max-width:100%;
-  padding-bottom: 50px;
-
+  max-width: 100%;
 }
 
 .welcome-msg{
   max-width: 60%;
-  margin: 0 19% 0 19%;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
   box-shadow: 0 0 3px #999;
 }
 
 .welcome-hdr{
   font-size: 1.5em;
   text-align: center;
-  color:#1D7CF2;
+  color: #1D7CF2;
   padding: 10px 0 0 0;
 }
 
-.welcome-msg p{
+.welcome-p{
   text-align: left;
   font-family: Lato, sans-serif;
   font-size: 1em;
-  color:#000;
-  padding: 0 15px 10px 15px;
+  color: #000;
+  padding: 0 15px 0 15px;
 }
 
 /***Comment Write Section***/
@@ -117,7 +115,7 @@ body{
 .comment-form{
   max-width: 60%;
   text-align: center;
-  margin-left: 20%;
+  margin: 0 20%;
 }
 
 .comment-hdr{
@@ -126,12 +124,12 @@ body{
 
 .comment-entry{
   width: 70%;
-  margin: 20px 14% 20px 14%;
+  margin: 20px 15%;
 }
 
 .submit-button{
-  width:15%;
-  margin: 0 42% 45px 42%;
+  width: 15%;
+  margin: 0 42.5% 45px 42.5%;
 }
 
 /***Comment Read Section***/
@@ -139,20 +137,17 @@ body{
 .comment-posts{
   text-align: left;
   width: 70%;
-  margin: 0 14% 0 14%;
+  margin: 0 15%;
   padding: 0;
-  color:#1D7CF2;
+  color: #1D7CF2;
   font-family: Lato, sans-serif;
 }
 
-.comment-line{
-  padding:0;
-  width: 100%;
-}
-
 .comment-posted{
-  margin:0;
-  padding:0;
+  display: block;
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: solid 1px #999;
 }
 
 
@@ -163,16 +158,18 @@ body{
   padding: 0 0 25px 0;
 }
 
-.copy{
+.footer-txt{
+    display: block;
     margin: 200px 0 0 0;
     text-align: center;
     font-family: Lato, sans-serif;
-    color:#1D7CF2;
+    color: #1D7CF2;
 }
 
-.banner{
-  background: #000 url(/img/banner.png) no-repeat;
+.footer-banner{
+  background: #000 url(img/banner.png) no-repeat;
   background-size: cover;
   background-position: center;
-  padding:0 0 150px 0;
+  padding: 0 0 150px 0;
+  margin: 0;
 }
