@@ -26,7 +26,7 @@
         <h1>About the Authors</h1>
         <p>This webpage was created by <span itemprop="name">Mimi</span> and <span itemprop="name">Maggie</span> on <time datetime="2014-09-08">September 8, 2014.</time></p>
       </footer>
-      <div id="alertBox_inactive">testing</div>
+      <div id="alertBox_inactive" class="inactive">testing</div>
     </main>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
@@ -47,7 +47,7 @@
       });
       $('#testForm').submit(function() {
       var alertString = "Your name is " + sessionStorage["yourname"] + ". Your hometown is " + sessionStorage["hometown"] + ". Thanks for playing!";
-      document.getElementById("alertBox_inactive").setAttribute("id","alertBox_active");
+      document.getElementById("alertBox_inactive").setAttribute("id","alertBox_active").setAttribute("class", "active");
       document.getElementById("alertBox_active").innerHTML = alertString;
       return false;
       });
