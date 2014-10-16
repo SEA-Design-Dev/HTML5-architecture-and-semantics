@@ -55,7 +55,7 @@ form input {
   background-color: rgba(255,255,255,0.3);
 }
 
-#alertBox_inactive {
+.inactive {
   display: none;
   position: fixed;
   background-color: #FFF;
@@ -70,7 +70,7 @@ form input {
   padding: 20px 30px;
 }
 
-#alertBox_active {
+.active {
   display: block;
   position: fixed;
   background-color: #FFF;
