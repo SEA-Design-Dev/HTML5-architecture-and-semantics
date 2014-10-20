@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# 2014-09-6:v1.7
+
+index.html
+css/normalize.css
+css/main.css
+js/main.js
+images/title-logo.png
+images/asterick-iocon.icns
+images/asterick-iocon.ico
+images/triangles-blue.jpg
+
+# All other resources (e.g. sites) require the user to be online.
+NETWORK:
+*
