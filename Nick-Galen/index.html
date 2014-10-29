@@ -9,59 +9,55 @@
     <body>
         <header>
             <div class="logo">
-                <a href="css-tricks.com">CSS-Tricks.jpg</a>
+                <a href="css-tricks.com">CSS-Tricks</a>
             </div>
             <section class="search-bar" role="search">
                 <form id="search-bar" action="search/">
                     <img src="search-icon" alt="search">
                     <input type="text" name="q">
-                    <input type="submit" value="Search">
+                    <input type="submit" value="Search" role="input">
                 </form>
             </section>
             <section class="ad">
                 <a href="teamtreehouse.com">
-                    <img src="teamtreehouse.com/logo" alt="Treehouse_ad.jpg">
+                    <img src="teamtreehouse.com/logo" alt="Treehouse_ad.jpg" role="img">
                 </a>
             </section>
         </header>
-
         <nav class="main-nav" role="navigation">
             <ul>
-                <li><a href="css-tricks.com/blog">Blog</a></li>
-                <li><a href="css-tricks.com/videos">Videos</a></li>
-                <li><a href="css-tricks.com/almanac">Almanac</a></li>
-                <li><a href="css-tricks.com/snippets">Snippets</a></li>
-                <li><a href="css-tricks.com/forums">Forums</a></li>
-                <li><a href="css-tricks.com/thelodge">The Lodge</a></li>
+                <li role="link"><a href="css-tricks.com/blog">Blog</a></li>
+                <li role="link"><a href="css-tricks.com/videos">Videos</a></li>
+                <li role="link"><a href="css-tricks.com/almanac">Almanac</a></li>
+                <li role="link"><a href="css-tricks.com/snippets">Snippets</a></li>
+                <li role="link"><a href="css-tricks.com/forums">Forums</a></li>
+                <li role="link"><a href="css-tricks.com/thelodge">The Lodge</a></li>
             </ul>
         </nav>
-
         <main role="main">
             <article>
                 <header class="article-header">
-                    <h1 role="heading">Shape Blobbling in CSS</h1>
-                    <h2>Published October 28, 2014 by Chris Coyer</h2>
+                    <h1 role="heading" tabIndex="0">Shape Blobbling in CSS</h1>
+                    <h2>Published <time datetime="2014-10-28 00:00">October 28, 2014</time> by Chris Coyer</h2>
                 </header>
                 <section>
                     <p>We just covered <a href="css-tricks.com/shape_morphing">shape morphing</a> in SVG, where shapes change from one to another. Let's look at shapes that blob into each other! You know, that gooey squishy blobby effect like droplets of <a href="wikipedia.org/mercury">mercury</a> on a surface.</p>
-                    <figure>
+                    <figure role="img">
                         <img src="css-tricks.com/mercury.jpg" alt="Mercury.jpg">
                     </figure>
-                    <h3>The trick is fairly simple, use filter to BOTH add blur and contrast to an element</h3>
+                    <h3 tabIndex="0">The trick is fairly simple, use filter to BOTH add blur and contrast to an element</h3>
                     <p>The blur obvious makes the element blurry, the contrast fights against the blur, preferring stark changes in color. If you contrast enough, you're left with a (fairly) sharp looking shape again.</p>
-                    <figure>
+                    <figure role="img">
                         <img src="css-tricks.com/blur.jpg" alt="Blur_Figure.jpg">
                     </figure>
                     <pre>
-                        <code>
-                           Hello World
-                        </code>
+                        <code>Hello World</code>
                     </pre>
-                    <h3>Browser Support</h3>
+                    <h3 tabIndex="0">Browser Support</h3>
                     <p>Not IE</p>
                 </section>
                 <footer class="article-footer">
-                    <h4>Share on</h4>
+                    <h4 tabIndex="0">Share on</h4>
                     <ul>
                         <li><a href="Twitter.com/share">Twitter</a></li>
                         <li><a href="facebook.com/share">Facebook</a></li>
@@ -70,14 +66,13 @@
                 </footer>
             </article>
         </main>
-
         <aside>
             <section class="treehouse-aside">
-                <img src="teamtreehouse.com/logo.jpg" alt="TeamTreehouse.jpg">
+                <img src="teamtreehouse.com/logo.jpg" alt="TeamTreehouse.jpg" role="img">
                 <p>Treehouse, so great</p>
             </section>
             <section class="poll-aside">
-                <h2>One or Two?</h2>
+                <h2 role="heading" tabIndex="0">One or Two?</h2>
                 <form action="index.php" method="post">
                     <ul role="radiogroup">
                         <li>
@@ -95,21 +90,20 @@
                 </form>
             </section>
         </aside>
-
         <footer>
             <section class="linkage">
-                <h1>Linkage</h1>
+                <h1 role="heading" tabIndex="0">Linkage</h1>
                 <ul>
-                    <li><a href="css-tricks.com/contact">Contact</a></li>
-                    <li><a href="css-tricks.com/advertise">Advertise</a></li>
-                    <li><a href="css-tricks.com/License">License</a></li>
-                    <li><a href="css-tricks.com/archives">Archives</a></li>
-                    <li><a href="css-tricks.com/store">Store</a></li>
+                    <li role="link"><a href="css-tricks.com/contact">Contact</a></li>
+                    <li role="link"><a href="css-tricks.com/advertise">Advertise</a></li>
+                    <li role="link"><a href="css-tricks.com/License">License</a></li>
+                    <li role="link"><a href="css-tricks.com/archives">Archives</a></li>
+                    <li role="link"><a href="css-tricks.com/store">Store</a></li>
                 </ul>
             </section>
             <section class="Colophon">
-                <h1>Colophon</h1>
-                <p>CSS-Tricks* is created, written by, and maintained by <a href="chriscoyier.net">Chris Coyier</a>. It is built on WordPress, hosted by Media Temple and MaxCDN. Fonts are Gotham Rounded, Noto Sans, and Menlo.</p>
+                <h1 role="heading" tabIndex="0">Colophon</h1>
+                <p>CSS-Tricks* is created, written by, and maintained by <a href="chriscoyier.net" role="link">Chris Coyier</a>. It is built on WordPress, hosted by Media Temple and MaxCDN. Fonts are Gotham Rounded, Noto Sans, and Menlo.</p>
             </section>
             <section class="Disclaimer">
                 <p>*May or may not contain any actual "CSS" or "Tricks".</p>
