@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Seattle Massage Oasis</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="http://www.yelp.com/biz/seattle-massage-oasis-seattle-2"><img alt="" width="175" height="39" style="border-width: 0px; border-style: solid;"  src="images/aad5b1b8e2d32c0128bf934a05d6c353_lv24.jpg"  /></a>
+      </header>  
+        <nav>
+          <h3 class="widget_header"><span></span></h3><div class="widget_content"><div style="display:block;" >
+            <ul id="Nav1" class="nav">
+              <li class="active-nav sf_first_nav_item"><a href="Home.html"  target="_self" onclick="">Home</a></li>
+              <li class=""><a href="About_Us_5GW8.html"  target="_self" onclick="">About Us</a></li>
+              <li class=""><a href="Insurance.html"  target="_self" onclick="">Insurance</a></li>
+              <li class=""><a href="Rates.html"  target="_self" onclick="">Rates</a></li>
+              <li class=""><a href="Forms.html"  target="_self" onclick="">Forms</a></li>
+              <li class=""><a href="Testimonials.html"  target="_self" onclick="">Testimonials</a></li>
+              <li class=""><a href="Directions.html"  target="_self" onclick="">Directions &amp; Parking</a></li>
+              <li class=" sf_last_nav_item"><a href="Contact_Us.html"  target="_self" onclick="">Contact Us</a></li>
+            </ul>
+        </nav> 
+          <p> At Seattle Massage Oasis, each massage session offers a unique crafting of massage techniques that will address the specific needs of the patient. Practitioners are skilled in Injury Treatment,Deep Tissue Massage, Swedish Massage, Neuromuscular Technique, Trigger Point Treatment, Sports Massage,Practitioners each have ten years of bodywork experience and expertise.Intuitive massage abilities are utilized with a variety of massage therapy modalities so to bring about powerful results for every visit. We use only organic and other high quality lotions and oils that do not contain parabens at Seattle Massage Oasis</p>
+          <p>Every new patient appointment begins with a thorough medical history review and a briefer intake for returning patients to identify and discuss any current medical conditions, injuries and/or symptoms. A treatment plan for how to safely and effectively address the needs of the patient is established by the massage practitioner and patient together.</p>  
+            <section>
+              <aside>
+                <figure>
+                  <img src="images/f8e50e17132716fb1a21d7eb6b4de60b.jpg"><figcaption>The view from our window.</figcaption>
+                </figure>
+              </aside>
+            </section>
+              <footer>
+                <a href="mailto:patti@seattleoasis.com">Email Us</a>
+                <a href="Directions.html">Directions Parking Info</a>
+                <br>
+                  Seattle Massage Oasis &nbsp;&#9679; &nbsp;2130 Westlake Ave N, Suite 4 &nbsp;&#9679; &nbsp;Seattle, WA 98109 &nbsp;&#9679; &nbsp; Phone: 206-838-5318 &nbsp;&#9679; &nbsp; Fax: 206-432-8876
+                  <p>Content copyright 2012  SEATTLEMASSAGEOASIS.COM. All rights reserved</p>
+             </footer>
+</body>
+</html>
